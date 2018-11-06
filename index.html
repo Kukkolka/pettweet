@@ -1,0 +1,57 @@
+<html>
+    <head>
+        <base href="">
+        <title>Petweets</title>
+
+        <!-- 1. Load libraries -->
+        <!--<script src="node_modules/es6-shim/es6-shim.js"></script>-->
+        <link href="app/css/bootstrap/combined.no-icons.min.css" rel="stylesheet">
+        <link href="app/css/bootstrap/bootstrap.min.css" rel="stylesheet">
+        <link href="app/css/bootstrap/font-awesome.css" rel="stylesheet">
+        <!--<script src="node_modules/angular2/bundles/angular2-polyfills.js"></script>-->
+        <!--<script src="node_modules/systemjs/dist/system.src.js"></script>-->
+        <!--<script src="node_modules/rxjs/bundles/Rx.js"></script>-->
+
+        
+                <!-- 1. Load libraries -->
+     <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+    
+    
+    
+    <!-- 2. Configure SystemJS -->
+    <script src="systemjs.config.js"></script>
+    <script>
+      System.import('app').catch(function(err){ console.error(err); });
+    </script>
+        
+
+        <!-- 2. Configure SystemJS -->
+<!--        <script>
+            System.config({
+                map: {
+                    "ng2-cookies": 'node_modules/ng2-cookies'
+//                    "@angular":"node_modules/@angular"
+                },
+                packages: {
+                    app: {
+                        format: 'register',
+                        defaultExtension: 'js'
+                    },
+                    'ng2-cookies': {defaultExtension: 'js'}
+                    
+                }
+            });
+            System.import('app/boot').then(null, console.error.bind(console));
+        </script>-->
+    </head>
+
+    <!-- 3. Display the application -->
+    <body>
+        
+    <root-component>Loading...</root-component>
+</body>
+</html>

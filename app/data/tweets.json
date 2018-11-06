@@ -1,0 +1,22 @@
+{
+    "tweets":[
+        {
+            "tweet":"Haha this ",
+            "traitId":0,
+            "pettype":0,
+             "tweetType":1
+        },
+        {
+            "tweet":"Hello",
+            "traitId":0,
+            "pettype":0,
+            "tweetType":0
+        },
+           {
+            "tweet":"Ouch that ",
+            "traitId":1,
+            "pettype":0,
+             "tweetType":1
+        }
+    ]
+}

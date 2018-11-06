@@ -1,0 +1,12 @@
+{
+    "pettypes":[
+        {"type":"cat","id":0},
+        {"type":"dog","id":1},
+        {"type":"hamster","id":2},
+        {"type":"bird","id":3}
+    ],
+     "personalities": [
+         {"trait":"funny","id":0},
+         {"trait":"clumsy","id":1}
+        ]
+}
